@@ -173,21 +173,21 @@ form {
 
 @media (max-width: 932px) {
   body {
-    height: 60%;
+    min-height: 100vh;
   }
 
   form {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 90%;
-justify-content: center;
-align-items: center;
-
+    width: 100%;
+margin-bottom: 20%;
     padding: 25px 20px;
     gap: 15px;
   }
-
+form input{
+  width: 100%;
+}
   .head div {
     font-size: 30px;
 
@@ -196,7 +196,7 @@ align-items: center;
 
   .head span {
     font-size: 14px;
-      margin-top: 12%;
+
   }
 
   nav {
@@ -230,7 +230,7 @@ align-items: center;
 
 @media (max-width: 1024px) {
   form {
-    width: 85%;
+    width: 100%;
     padding: 30px;
   }
 
